@@ -35,7 +35,7 @@ export const Navbar = () => {
       >
         <Typography variant="h3">Store</Typography>
         {navLinks.map((link, index) => {
-          return <Link to={link.to}>{link.navItem}</Link>;
+          return <Link to={link.to} key={index}>{link.navItem}</Link>;
         })}
         <Box>
         <LocalMallIcon sx={{color:"yellowgreen"}}/>

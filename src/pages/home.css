@@ -1,0 +1,26 @@
+.products{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+
+.each_item{
+    height:max-content;
+    width: 300px;
+    padding: 0.5rem;
+    /* background-color: #333; */
+    color:#242323;
+}
+
+
+.each_item img{
+    width: 80%;
+    height: 80%;
+}
+
+.product_title{
+    color:greenyellow;
+}
